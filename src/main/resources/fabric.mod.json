@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "relics",
+  "version": "b1",
+
+  "name": "Relics",
+  "description": "A mod created by Camellias_ and UpcraftLP that adds a bunch of different relics and structures to the game.",
+  "authors": [
+    "Camellias_",
+    "UpcraftLP"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "GNU GPL 3.0",
+  "icon": "assets/relics/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.camcodes.relics.Relics"
+    ]
+  },
+  "mixins": [
+    "relics.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
